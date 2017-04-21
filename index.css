@@ -18,7 +18,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #277c30;
 }
 
 li {
@@ -36,10 +36,6 @@ li a:hover {
     background-color: #111;
 }
 
-.active{
-  background-color: green; 
-}
- 
 #intro{
   display: inline-block;
   min-width:100%;
