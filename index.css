@@ -4,6 +4,31 @@ html{
   overflow:auto;
 }
 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
 html,body{
   display:inline-block;
   height:100%;
@@ -17,14 +42,6 @@ html,body{
   /*border: 1px solid #000066;*/
   border-top: 2px solid #000066;
 }
-
-#navbar{
-  padding-top:10px;
-  padding-bottom:10px;
-  text-align:center;
-  border-bottom: 2px solid #000066;
-}
-
 
  
 #intro{
@@ -51,30 +68,3 @@ html,body{
   margin-left:20px;
   font-size:30px;
 }
-
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
-
-li {
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
-}
-
