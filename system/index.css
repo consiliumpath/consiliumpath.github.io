@@ -41,6 +41,9 @@ li a:hover {
    background-color:#3AE8AE;
 }
 
+ol li {
+  display:inline-block; 
+}
 
 #intro{
   display: inline-block;
