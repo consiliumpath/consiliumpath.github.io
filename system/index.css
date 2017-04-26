@@ -17,19 +17,12 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    overflow: hidden;
     background-color: #333;
-    overflow:hidden;
-    float:left;
 }
 
-ul li{
-    float:left; 
-}
-
-
-ol li {
-  display:block;
-  margin:0;
+li {
+    float: left;
 }
 
 li a {
@@ -47,8 +40,6 @@ li a:hover {
 .active{
    background-color:#3AE8AE;
 }
-
-
 
 #intro{
   display: inline-block;
