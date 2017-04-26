@@ -21,6 +21,10 @@ ul {
     overflow:hidden;
 }
 
+ul li{
+    float:left; 
+}
+
 
 ol li {
   display:block;
